@@ -1,0 +1,41 @@
+# Build artifacts
+/android/.gradle
+/android/build
+/android/app/build
+/android/.idea
+/ios/Pods
+/ios/build
+/ios/DerivedData
+/ios/*.xcworkspace/xcuserdata
+
+# Node
+/node_modules/
+/.bundle
+/.yarn
+
+# Metro
+/.metro-health-check*
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Testing
+/coverage
+
+# Env / secrets
+.env
+.env.local
+firebase.config.js
+google-services.json
+GoogleService-Info.plist
+
+# Misc
+*.log

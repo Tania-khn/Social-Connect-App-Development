@@ -1,0 +1,23 @@
+{
+  "name": "social-connect-functions",
+  "description": "Cloud Functions for SocialConnect — handles push notifications on likes & comments.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "private": true
+}
